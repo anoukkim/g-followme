@@ -94,7 +94,7 @@ conda activate blip-finetune-env
 
 ### Step 3: Dataset
 
-Download the dataset from Kaggle and preprocess it using the described steps. Save it to a directory and specify the path in config.json under dataset_path.
+Download the dataset from Kaggle and preprocess it using the described steps. Save it to a directory and specify the path in config.json. (Experiment is set so labels.csv file and 'images' folder are both located in directory)
 
 ## Usage
 
