@@ -1,17 +1,15 @@
-from transformers import TrainingArguments
-
-TRAINING_ARGS = TrainingArguments(
-    output_dir="./blip_finetuned_full",
-    per_device_train_batch_size=8,
-    per_device_eval_batch_size=8,
-    evaluation_strategy="epoch",
-    logging_dir="./logs",
-    num_train_epochs=200,
-    save_strategy="epoch",
-    logging_strategy="steps",
-    logging_steps=500,
-    save_total_limit=2,
-    load_best_model_at_end=True,
-    learning_rate=5e-5,
-    lr_scheduler_type="linear",
-)
+{
+  "label_csv": "labels.csv",
+  "images_folder": "images",
+  "preprocessed_dataset": "preprocessed_dataset",
+  "output_dir": "./blip_finetuned_full",
+  "train_batch_size": 8,
+  "eval_batch_size": 8,
+  "num_train_epochs": 200,
+  "logging_dir": "./logs",
+  "save_total_limit": 2,
+  "learning_rate": 5e-5,
+  "lr_scheduler_type": "linear",
+  "checkpoint_path": "./blip_finetuned_full/checkpoint-26748",
+  "evaluation_steps": 500
+}
