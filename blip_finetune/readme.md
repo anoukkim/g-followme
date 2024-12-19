@@ -1,5 +1,3 @@
-Here’s the entire README in Markdown code format:
-
 # **BLIP Fine-Tuning Project**
 
 This project fine-tunes the BLIP (Bootstrapped Language-Image Pretraining) model on a custom dataset for image captioning. The dataset used is the **Chest X-rays (Indiana University)** dataset from Kaggle.
