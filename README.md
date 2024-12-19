@@ -69,9 +69,8 @@ blip_finetune/
 ├── model.py                 # Model and processor initialization
 ├── train.py                 # Training logic
 ├── evaluate.py              # Evaluation and BLEU scoring
-├── utils.py                 # Utility functions (e.g., collate function)
+├── utils.py                 # Utility functions
 ├── environment.yml          # Conda environment setup
-├── README.md                # Project documentation
 ```
 
 ## Setup Instructions
