@@ -1,6 +1,6 @@
-# **BLIP Fine-Tuning Project**
+# **Radiology Report Generator Using BLIP**
 
-This project fine-tunes the BLIP (Bootstrapped Language-Image Pretraining) model on a custom dataset for image captioning. The dataset used is the **Chest X-rays (Indiana University)** dataset from Kaggle.
+This project fine-tunes the BLIP (Bootstrapped Language-Image Pretraining) model to generate automated radiology reports for chest X-rays. The captions are derived from radiology findings and impressions, making it a state-of-the-art Radiology Report Generator. This project was developed as part of the "G-Follow Me" class at Gachon University.
 
 ---
 
