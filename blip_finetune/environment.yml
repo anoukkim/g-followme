@@ -1,0 +1,24 @@
+name: blip-finetune-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pytorch=2.5.1
+  - torchvision=0.20.1
+  - torchaudio=2.5.1
+  - cudatoolkit=11.8
+  - pip:
+      - transformers==4.47.0
+      - datasets==3.2.0
+      - nltk==3.9.1
+      - pillow
+      - accelerate==1.2.1
+      - tensorboard==2.18.0
+      - matplotlib
+      - pandas
+      - tqdm
+      - safetensors
+      - sentencepiece
+      - absl-py
